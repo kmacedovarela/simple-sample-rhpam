@@ -9,6 +9,7 @@ public class Person implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	private java.lang.String name;
+	@org.kie.api.definition.type.Label("test")
 	private java.util.Date birthDate;
 
 	public Person() {
